@@ -1,12 +1,12 @@
 import java.util.HashSet;
 
-public class Exc{
+public class Exc1{
     // First multiples of 5 and 7 \\
     public int b = 5;
         public int c = 7;
         public int count;
 
-    public Exc(){
+    public Exc1(){
         count = 0;
     }
     public int mult(int a){
@@ -42,7 +42,7 @@ public class Exc{
 
 
     public static void main(String[] args) {
-        Exc exc = new Exc();
+        Exc1 exc = new Exc1();
         int result = exc.mult(20);
         System.out.println("Result: " + result);
         int[] test = {1,2,3,4};
